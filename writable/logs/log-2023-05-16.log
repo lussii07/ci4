@@ -1,0 +1,219 @@
+ERROR - 2023-05-16 13:53:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ci4', 3306, '', 0)
+#1 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(241): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\project\latihan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(241): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#7 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#8 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#9 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#10 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#11 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#12 C:\project\latihan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-05-16 13:53:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ci4', 3306, '', 0)
+#1 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\project\latihan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#10 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#11 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#12 C:\project\latihan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+CRITICAL - 2023-05-16 14:17:31 --> Invalid file: "ssiwa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ssiwa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ssiwa/index', [], true)
+ 3 APPPATH\Controllers\Siswa.php(22): view('ssiwa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:19:05 --> Invalid file: "ssiwa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ssiwa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ssiwa/index', [], true)
+ 3 APPPATH\Controllers\Siswa.php(22): view('ssiwa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:20:31 --> Invalid file: "siwa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siwa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siwa/index', [], true)
+ 3 APPPATH\Controllers\Siswa.php(22): view('siwa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:32:21 --> Undefined variable $siswa
+in APPPATH\Views\siswa.php on line 18.
+ 1 APPPATH\Views\siswa.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'C:\\project\\latihan_codeigniter\\app\\Views\\siswa.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\project\\latihan_codeigniter\\app\\Views\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siswa', [], true)
+ 5 APPPATH\Controllers\MenuController.php(19): view('siswa')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MenuController->dataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:32:46 --> Invalid file: "siwa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siwa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siwa/index', [], true)
+ 3 APPPATH\Controllers\Siswa.php(22): view('siwa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:32:53 --> Undefined variable $siswa
+in APPPATH\Views\siswa.php on line 18.
+ 1 APPPATH\Views\siswa.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'C:\\project\\latihan_codeigniter\\app\\Views\\siswa.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\project\\latihan_codeigniter\\app\\Views\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siswa', [], true)
+ 5 APPPATH\Controllers\MenuController.php(19): view('siswa')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MenuController->dataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:34:40 --> Invalid file: "siwa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siwa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siwa/index', [], true)
+ 3 APPPATH\Controllers\Siswa.php(22): view('siwa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:35:12 --> Undefined variable $siswa
+in APPPATH\Views\siswa.php on line 18.
+ 1 APPPATH\Views\siswa.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $siswa', 'C:\\project\\latihan_codeigniter\\app\\Views\\siswa.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\project\\latihan_codeigniter\\app\\Views\\siswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siswa', [], true)
+ 5 APPPATH\Controllers\MenuController.php(19): view('siswa')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\MenuController->dataSiswa()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+ERROR - 2023-05-16 14:51:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ci4', 3306, '', 0)
+#1 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\project\latihan_codeigniter\app\Controllers\Siswa.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Siswa->index()
+#8 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#9 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\project\latihan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\project\\lati...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\project\latihan_codeigniter\app\Controllers\Siswa.php(21): CodeIgniter\BaseModel->findAll()
+#6 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Siswa->index()
+#7 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\project\latihan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\project\latihan_codeigniter\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\project\\lati...')
+#11 {main}
+CRITICAL - 2023-05-16 14:51:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `role` = :role:', [...], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Siswa.php(21): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:59:10 --> Invalid file: "siswa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siswa/index', [], true)
+ 3 APPPATH\Controllers\Siswa.php(22): view('siswa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-16 14:59:23 --> Invalid file: "siswa/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('siswa/index', [], true)
+ 3 APPPATH\Controllers\Siswa.php(22): view('siswa/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\project\\latihan_codeigniter\\public\\index.php')
